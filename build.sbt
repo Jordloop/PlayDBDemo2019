@@ -10,6 +10,9 @@ crossScalaVersions := Seq("2.11.12", "2.12.4")
 
 libraryDependencies += guice
 
+//GUI
+libraryDependencies += "org.webjars" % "bootstrap" % "4.3.1"
+
 //Database
 libraryDependencies += javaJpa
 libraryDependencies += javaJdbc
